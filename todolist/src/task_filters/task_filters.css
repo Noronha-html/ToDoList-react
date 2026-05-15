@@ -1,0 +1,21 @@
+.task-filters-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-inline: 50px;
+}
+
+.task-filter-select {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 30%;
+}
+
+.task-filter-select:hover {
+    background-color: #f0f0f0;
+}
