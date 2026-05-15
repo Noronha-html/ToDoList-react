@@ -14,6 +14,31 @@
     flex-grow: 1;
 }
 
+.edit-task-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.edit-task-input {
+    width: 80%;
+    height: 100%;
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+.save-button {
+    width: 20%;
+    height: 35px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
 .task-list-item:last-child {
     border-bottom: none;
 }
@@ -23,6 +48,14 @@
     height: 15px;
     margin-right: 10px;
     accent-color: green;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .delete-button {
